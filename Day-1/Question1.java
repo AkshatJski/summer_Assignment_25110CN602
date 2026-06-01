@@ -9,5 +9,6 @@ public class Question1 {
             sum = sum + i;
         }
         System.out.println("The sum of numbers from 1 to " + n + " is: " + sum);
+        in.close();
     }
 }
